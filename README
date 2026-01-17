@@ -1,0 +1,23 @@
+# 🎵 Music Recommendation System
+
+This project is a machine learning–based music recommendation system that suggests songs based on audio features such as tempo, energy, and valence.
+
+## 🚀 Features
+- Content-based recommendation
+- Uses cosine similarity with Nearest Neighbors
+- Built with Python and Streamlit
+- Interactive web interface
+
+## 🛠 Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+
+## 📂 Dataset
+Spotify audio features dataset.
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app.py
