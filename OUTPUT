@@ -1,0 +1,31 @@
+
+---
+
+# 🧩 STEP 4: UPLOAD FILES TO GITHUB (EASIEST METHOD)
+
+### 🔹 Method A: Upload Using Browser (NO TERMINAL)
+
+1. Open your GitHub repository
+2. Click **Add file**
+3. Click **Upload files**
+4. Drag & drop:
+   - `app.py`
+   - `requirements.txt`
+   - `README.md`
+   - (optional) `SpotifyFeatures.csv`
+5. Click **Commit changes**
+
+✅ Done 🎉
+
+---
+
+# 🧩 STEP 5 (IMPORTANT): Handling Large Dataset
+
+### ❌ DO NOT upload huge CSV (>25MB)
+
+Instead:
+
+### 🔹 Option 1 (Recommended)
+- Upload **small sample**:
+```python
+df.sample(5000).to_csv("SpotifyFeatures_sample.csv", index=False)
